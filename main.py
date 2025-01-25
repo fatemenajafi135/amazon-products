@@ -10,5 +10,5 @@ if __name__ == "__main__":
         logger.info(f"\n{'='*50}")
         logger.info(f"Processing category: {category}")
         predictor = PricePredictor(category)
-        predictor.execute()
+        predictor.run()
         

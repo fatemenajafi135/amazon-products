@@ -31,7 +31,7 @@ class RatingPredictor:
             X_temp, y_temp, test_size=0.5, random_state=42
         )
 
-    def execute(self) -> None:
+    def run(self) -> None:
         try:
             # Data processing
             preprocessor = RatingDataPreprocessor(self.data_path)
